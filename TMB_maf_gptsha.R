@@ -8,7 +8,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read MAF file
-maf_file <- "/media/bioinfo/TOSHIBA EXT/Exomas_may2024/new_maf/prolactinoma_new.maf"
+maf_file <- "/your/path/*.maf"
 maf_data <- read.maf(maf = maf_file)
 
 # Define common cancer-related variants
